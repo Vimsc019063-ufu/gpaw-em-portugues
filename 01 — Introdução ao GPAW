@@ -1,1 +1,128 @@
+# Introdução ao GPAW
 
+## O que é o GPAW?
+
+O GPAW é um pacote de código aberto para cálculos de estrutura eletrônica baseados, principalmente, na Teoria do Funcional da Densidade (DFT).
+
+O GPAW permite realizar cálculos de primeiros princípios (*ab initio*) para investigar as propriedades estruturais, eletrônicas, mecânicas, vibracionais, térmicas e ópticas de átomos, moléculas, sólidos, superfícies e materiais em baixa dimensionalidade.
+
+Uma das principais características do GPAW é sua integração com o Atomic Simulation Environment (ASE), que fornece ferramentas para construção, manipulação e análise de sistemas atômicos e para a realização de diferentes tipos de cálculos de materiais.
+
+Este projeto tem como objetivo apresentar o GPAW de forma didática e prática, em português, partindo dos conceitos fundamentais e avançando gradualmente para cálculos mais sofisticados.
+
+---
+
+## Objetivos
+
+Ao longo deste material, vamos aprender a utilizar o GPAW para realizar e analisar diferentes tipos de cálculos de primeiros princípios.
+
+Entre os principais tópicos abordados estão:
+
+- Instalação e configuração do GPAW;
+- Introdução aos cálculos de DFT;
+- Construção e preparação de sistemas atômicos;
+- Estrutura básica dos cálculos no GPAW;
+- Energia total e relaxação estrutural;
+- Estudos de convergência;
+- Estrutura eletrônica;
+- Estrutura de bandas;
+- Densidade de estados (DOS e PDOS);
+- Propriedades estruturais e mecânicas;
+- Cálculos de fônons e dispersão de fônons;
+- Dinâmica molecular ab initio (AIMD);
+- Estabilidade térmica e dinâmica estrutural;
+- Propriedades ópticas;
+- Cálculos em sistemas bidimensionais, superfícies e interfaces;
+
+---
+
+## Para quem é este material?
+
+Este material foi desenvolvido principalmente para estudantes e pesquisadores interessados em cálculos de primeiros princípios e simulações computacionais de materiais.
+
+É recomendado possuir conhecimentos básicos de:
+
+- Mecânica quântica;
+- Teoria do Funcional da Densidade (DFT);
+- Física do estado sólido;
+- Linux e linha de comando;
+- Python.
+
+No entanto, os exemplos serão apresentados de maneira progressiva, de modo que o leitor possa acompanhar os cálculos mesmo que ainda não tenha experiência prévia com o GPAW.
+
+---
+
+## GPAW e DFT
+
+A Teoria do Funcional da Densidade é uma das principais ferramentas utilizadas atualmente para investigar as propriedades eletrônicas de sistemas quânticos de muitos corpos.
+
+Na prática, cálculos de DFT permitem obter informações como:
+
+- Estruturas de equilíbrio;
+- Energias totais;
+- Energias de formação e adsorção;
+- Densidade eletrônica;
+- Estrutura de bandas;
+- Densidade de estados;
+- Propriedades vibracionais;
+- Propriedades mecânicas;
+- Entre outras propriedades.
+
+O GPAW fornece as ferramentas computacionais necessárias para realizar esses cálculos, permitindo diferentes representações para a função de onda e para a densidade eletrônica.
+
+---
+
+## Do cálculo básico às propriedades avançadas
+
+O objetivo deste projeto não é apenas apresentar quais comandos devem ser utilizados para executar um cálculo.
+
+A ideia é entender **o que está sendo calculado, por que determinado parâmetro é utilizado e como interpretar os resultados obtidos**.
+
+Por isso, os exemplos serão desenvolvidos de forma progressiva.
+
+Começaremos com sistemas simples e cálculos básicos de DFT. Em seguida, avançaremos para sistemas periódicos e materiais, explorando suas propriedades estruturais e eletrônicas.
+
+Posteriormente, serão apresentados cálculos de propriedades vibracionais e térmicas, incluindo fônons e dinâmica molecular ab initio. Também serão abordadas propriedades ópticas e métodos de muitos corpos, como RPA, GW e BSE.
+
+Dessa forma, o material busca estabelecer uma conexão entre:
+
+**estrutura → energia → propriedades eletrônicas → propriedades vibracionais → propriedades térmicas → propriedades ópticas **
+---
+
+## Organização do projeto
+
+O conteúdo será organizado em diferentes capítulos, seguindo uma sequência de dificuldade crescente.
+
+A estrutura inicial do projeto será:
+
+1. **Introdução**
+2. **Instalação do GPAW**
+3. **Primeiro cálculo**
+4. **Estrutura dos cálculos**
+5. **Convergência**
+6. **Estrutura eletrônica**
+7. **DOS e PDOS**
+8. **Propriedades estruturais e mecânicas**
+9. **Fônons**
+10. **Dinâmica molecular ab initio (AIMD)**
+11. **Propriedades ópticas**
+
+A organização poderá ser expandida conforme novos tópicos e aplicações forem adicionados ao projeto.
+
+---
+
+## Filosofia do projeto
+
+Este projeto busca combinar **fundamentação física, implementação computacional e exemplos práticos**.
+
+Sempre que possível, os exemplos serão acompanhados de explicações sobre a física envolvida, os parâmetros utilizados no cálculo, os critérios de convergência e a interpretação dos resultados.
+
+O objetivo final é que o leitor não apenas consiga executar um cálculo com GPAW, mas também consiga compreender o cálculo realizado e avaliar criticamente seus resultados.
+
+---
+
+## Próximo capítulo
+
+No próximo capítulo, veremos como instalar e configurar o GPAW e preparar o ambiente necessário para realizar nossos primeiros cálculos.
+
+**Próximo:** [02 — Instalação do GPAW](../02-instalacao/)
