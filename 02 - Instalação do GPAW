@@ -1,0 +1,41 @@
+Para fazer a instalação é necessario você ter o Python 3.9 ou posterior Entre outros.
+
+O que irei fazer é passar um tutorial copia e cola simples. 
+
+Primeiro é necessario instalar o ANACONDA ou Miniconda, aqui possui um passo a passo como fazer a instalação do anaconda (https://hub.asimov.academy/blog/anaconda-no-linux/)
+ou você pode simplismente pesquisar no google. 
+
+Depois é so seguir esse tutorial simples: 
+Copie e cole no seu terminal tudo depois de (#)
+
+#sudo apt update
+-Faça a instalação do Anaconda/miniConda
+#python3 --version
+#conda create -n gpaw python=3.13
+#conda activate gpaw
+
+#conda install -c conda-forge \
+    ase \
+    numpy \
+    scipy \
+    libxc \
+    libblas \
+    liblapack \
+    fftw \
+    scalapack \
+    openmpi
+
+#conda install -c conda-forge \
+    compilers \
+    cxx-compiler \
+    fortran-compiler
+
+#pip install gpaw
+#gpaw info
+#gpaw test
+#which mpiexec
+#mpiexec -n 2 gpaw test
+
+para desativar o ambiente --> conda deactivate 
+
+Depois disso você terá o GPAW instalado em seu computador. 
